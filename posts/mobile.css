@@ -1,0 +1,27 @@
+@media screen and (max-width: 750px) {
+    .portfolio{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .portfolio .left, .portfolio .center, .portfolio .calendar, .portfolio .in_town, .portfolio .huber, .portfolio .is_war{
+        width: 100%;
+        margin-left: 0;
+    } 
+    .portfolio .right{
+        margin-left: 0;
+    }
+    .portfolio .sntky, .portfolio .posters{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio .phovea, .portfolio .masque{
+        width: 100%;
+        margin-left: 0;
+        top: 0;
+    }
+    .portfolio .ntky, .portfolio .alice, .portfolio .telephone, .portfolio .belvedere{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
